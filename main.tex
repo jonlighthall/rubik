@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{rubikcube} 
+\begin{document}
+\begin{figure}[hbt]
+\centering
+\RubikCubeSolvedWY
+\ShowCube{7cm}{0.7}{\DrawRubikCube}
+\end{figure}
+
+\RubikCubeGreyAll
+\RubikFaceUp{X}{Y}{Y}
+{Y}{Y}{X}
+{Y}{X}{X}
+\RubikFaceBack XXY XXXXXX
+\RubikFaceLeft XXX XXXXXX
+\RubikFaceRight YYX XXXXXX
+\RubikFaceFront XYX XXXXXX
+\ShowCube{2.6cm}{0.6}{\NoSidebar{X}\DrawRubikFaceUpSide}%
+
+
+\section{}
+\section{}
+\section{}
+\section{}
+\section{Bottom Edges}
+
+\begin{figure}[h]
+\centering
+\RubikCubeGreyAll
+\RubikFaceUp{Y}{X}{Y}
+{X}{Y}{X}
+{Y}{X}{Y}
+\RubikFaceBack XYX XXXXXX
+\RubikFaceLeft XYX XXXXXX
+\RubikFaceRight XYX XXXXXX
+\RubikFaceFront XYX XXXXXX
+\ShowCube{2.6cm}{0.6}{\DrawRubikFaceUpSide}%
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\RubikCubeGreyAll
+\RubikFaceUp{Y}{X}{Y}
+{X}{Y}{X}
+{Y}{X}{Y}
+\RubikFaceBack XYX XXXXXX
+\RubikFaceLeft XYX XXXXXX
+\RubikFaceRight XYX XXXXXX
+\RubikFaceFront XYX XXXXXX
+\ShowCube{2.6cm}{0.6}{\DrawRubikFaceUpSide}%
+\end{figure}
+
+
+\end{document}
